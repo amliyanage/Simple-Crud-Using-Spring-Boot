@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/blog")
+@CrossOrigin
 public class BlogController {
 
     @Autowired
